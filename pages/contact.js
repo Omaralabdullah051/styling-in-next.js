@@ -1,10 +1,10 @@
-import styles from "../styles/Contact.module.css";
+import styles from "../styles/Contact.module.scss";
 
 const Contact = () => {
   return (
     <>
       <h2>Contact Page</h2>
-      <h5 className={styles.highlight}>Contact</h5>
+      <h5 className={styles.highlightscss}>Contact</h5>
     </>
   );
 };
